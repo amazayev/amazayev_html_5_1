@@ -1,0 +1,53 @@
+
+.header{
+  margin: 0 auto;
+  height: 36px;
+  width: 100%;
+  max-width: 1214px;
+  background-image: url(../img/header_background.jpg);
+  background-repeat: repeat;
+  font-family: 'Helvetica NeueR';
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header a{
+  color: rgb(78, 157, 213);
+  padding: 9px 13px 9px 14px;
+  text-decoration: none;
+}
+
+.header a img{
+  padding: 4px 0 4px 16px;
+  position: relative;
+  top: 1px;
+  border-left: 1px solid rgb(78, 157, 213);
+}
+
+.header .headerbutton{
+  background-image: url(../img/headerbutton.jpg);
+  background-repeat: repeat-x;
+  height: 35px;
+  margin: 0 22px 0 5px;
+  padding: 0 12px 0 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  color: white;
+}
+
+.headerbutton a{
+  text-decoration: underline;
+  color: white;
+  padding: 6px;
+}
+
+a.selection:hover{
+  background-color: rgb(78, 171, 218);
+  color: rgb(255, 255, 255);
+}
