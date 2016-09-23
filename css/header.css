@@ -2,8 +2,7 @@
 .header{
   margin: 0 auto;
   height: 36px;
-  width: 100%;
-  max-width: 1214px;
+  min-width: 100%;
   background-image: url(../img/header_background.jpg);
   background-repeat: repeat;
   font-family: 'Helvetica NeueR';

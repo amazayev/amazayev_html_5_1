@@ -40,12 +40,19 @@ border-bottom: 1px solid rgb(217, 222, 216);
   margin: 0 auto;
 }
 
-.box .input{
+.box form{
   display: flex;
-  margin: 20px 10px 0 140px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.box .input{
   padding-left: 19px;
   height: 29px;
   width: 258px;
+  margin: 10px 0 10px 0;
   border-bottom: 1px solid rgb(73, 73, 71);
   border-top: none;
   border-left: none;
@@ -56,10 +63,8 @@ border-bottom: 1px solid rgb(217, 222, 216);
 }
 
 .box .input:hover{
-  margin: 20px 125px 0 140px;
   color: rgb(255, 255, 255);
   background-color: rgb(27, 82, 136);
-  border-top: 1px solid rgb(104, 155, 204);
   border-bottom: 1px solid rgb(104, 155, 204);
-  box-shadow: 0px 0px 2px 2px rgba(103,155,204,1);
+  box-shadow: 0px 0px 3px 3px rgba(103,155,204,1);
 }
